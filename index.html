@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>LiquidityLogic™</title>
+  <meta name="description" content="LiquidityLogic™. It's not Rocket Science.">
+  <meta name="theme-color" content="#050817">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/icons/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Michroma&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="config.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <div class="backdrop" data-backdrop aria-hidden="true"></div>
+  <div class="rings" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Home">
+        <img class="brand__logo" data-bind="logo" alt="" width="32" height="32">
+        <span class="brand__name" data-text="brand"></span>
+      </a>
+      <ul class="socials" data-socials aria-label="Social links"></ul>
+    </header>
+
+    <main class="hero">
+      <section class="hero__copy">
+        <p class="eyebrow" data-text="eyebrow"></p>
+        <h1 class="headline"><span data-text="headline"></span> <em data-text="headlineAccent"></em></h1>
+        <p class="tagline" data-text="tagline"></p>
+        <div class="actions">
+          <a class="btn btn--primary" data-cta></a>
+          <a class="btn btn--ghost" data-cta2></a>
+        </div>
+        <ul class="mottos" data-mottos></ul>
+      </section>
+
+      <section class="hero__visual">
+        <figure class="art">
+          <img data-bind="heroImage" data-alt="heroImageAlt" alt="" width="1024" height="1280">
+        </figure>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="disclaimer" data-text="disclaimer"></p>
+      <p class="copy" data-footer></p>
+    </footer>
+  </div>
+
+  <noscript><p style="text-align:center;padding:1rem;color:#fff">Please enable JavaScript to view this page.</p></noscript>
+</body>
+</html>
