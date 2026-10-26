@@ -7,8 +7,8 @@ window.SITE_CONFIG = {
   meta: {
     title: "LiquidityLogic™ | It's not Rocket Science",
     description: "Annual Logic Levels and multi-timeframe chart setups. Time and Price are Fractal. It's not Rocket Science. It's LiquidityLogic™.",
-    url: "https://example.com/",
-    image: "https://example.com/assets/img/ripple-banner.jpg",
+    url: "https://jamesbratton-codes.github.io/ll-demo-w4m8z/",
+    image: "https://jamesbratton-codes.github.io/ll-demo-w4m8z/assets/img/ripple-banner.jpg",
     themeColor: "#050817",
     twitterHandle: "@LiquidityLogic"
   },
